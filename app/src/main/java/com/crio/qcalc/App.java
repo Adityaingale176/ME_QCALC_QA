@@ -9,6 +9,10 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        System.out.println("Starting Qcalc");
+        StandardCalculator calc = new StandardCalculator();
+        calc.add(1,2);
+        calc.printResult();
     }
+
 }

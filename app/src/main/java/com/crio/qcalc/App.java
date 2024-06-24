@@ -10,8 +10,8 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println("Starting Qcalc");
-        StandardCalculator calc = new ScientificCalculator();
-        calc.add(1,2);
+        LogicCalculator calc = new LogicCalculator();
+        calc.AND(8,6);
         calc.printResult();
     }
 

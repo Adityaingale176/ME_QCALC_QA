@@ -11,7 +11,7 @@ public class App {
     public static void main(String[] args) {
         System.out.println("Starting Qcalc");
         StandardCalculator calc = new StandardCalculator();
-        calc.add(1.5,2.5);
+        calc.add(Double.MAX_VALUE,Double.MAX_VALUE);
         calc.printResult();
     }
 

@@ -10,8 +10,8 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println("Starting Qcalc");
-        StandardCalculator calc = new StandardCalculator();
-        calc.add(Double.MAX_VALUE,Double.MAX_VALUE);
+        StandardCalculator calc = new ScientificCalculator();
+        calc.add(1,2);
         calc.printResult();
     }
 
